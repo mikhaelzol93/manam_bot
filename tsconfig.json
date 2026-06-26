@@ -2,10 +2,11 @@
   "$schema": "https://www.schemastore.org/tsconfig",
   "compilerOptions": {
     "target": "es2019",
-    "module": "node16",
+    "types": ["node"],
+    "module": "nodenext",
     "rootDir": "./src",
     "outDir": "./dist",
-    "moduleResolution": "node16",
+    "moduleResolution": "nodenext",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
